@@ -1,0 +1,47 @@
+:doctype: book
+:toclevels: 5
+:sectnumlevels: 0
+:sectanchors: 
+:sectnums: |,all|
+
+
+
+:toc:
+
+<<<
+
+=  Level 1 Section Header
+
+Body text
+
+== Level 2 Section Header
+
+Body text
+
+* vertical
+* list
+
+. numbered
+. list
+. why is it indented? 
+
+NOTE: This is rendering about 70% what I expected to see.
+
+=== Level 3 Section Header
+
+Body text
+
+[%header, cols="1,2"]
+|====
+| header one 
+| header two
+
+| body one
+| body two
+
+a| * bullet
+* list
+
+a| *bold* and _italicized_ 
+
+|====
